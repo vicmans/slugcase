@@ -1,18 +1,23 @@
 # slugcase
 
+[![npm version](https://img.shields.io/npm/v/slugcase.svg)][npm-url]
+
+[npm-url]: https://www.npmjs.com/package/slugcase
+
 A library to convert a string to slug format
+
+Demo on [Stackblitz](https://stackblitz.com/edit/vite-example-slug)
 
 ## Installation
 
 ```sh
 npm install slugcase
-
 ```
 
 ## Usage
 
 ```js
-import { slugcase } from 'slugcase',
+import { slugcase } from 'slugcase';
 
 const myString = 'Hola como estas?';
 
